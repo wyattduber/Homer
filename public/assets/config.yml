@@ -65,21 +65,6 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  # - name: "Applications"
-  #   icon: "fas fa-cloud"
-  #   items:
-  #     - name: "Awesome app"
-  #       logo: "assets/tools/sample.png"
-  #       subtitle: "Bookmark example"
-  #       tag: "app"
-  #       keywords: "self hosted reddit"
-  #       url: "https://www.reddit.com/r/selfhosted/"
-  #       target: "_blank" # optional html a tag target attribute
-  #     - name: "Another one"
-  #       logo: "assets/tools/sample2.png"
-  #       subtitle: "Another application"
-  #       tag: "app"
-  #       url: "#"
   - name: "Sharing"
     icon: "fas fa-cloud"
     items:
@@ -137,6 +122,12 @@ services:
         target: "_blank"
         logo: "assets/tools/plane.png"
         url: "https://plane.wyattduber.com" 
+      - name: "Repo"
+        subtitle: "Simple autoindexed repo site"
+        tag: "app"
+        target: "_blank"
+        logo: "assets/tools/repo.png"
+        url: "https://repo.wyattduber.com"
   - name: "Server"
     icon: "fa-solid fa-server"
     items:
